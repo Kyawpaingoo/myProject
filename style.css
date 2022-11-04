@@ -1,0 +1,389 @@
+body{
+    font-family: Arial;
+}
+
+/* navbar */
+#search{
+    margin-left: auto;
+}
+
+nav{
+    border-bottom: 1px;
+}
+
+
+
+nav h2 a{
+    text-decoration: none;
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+.navbar-nav{
+    margin-left: auto !important;
+}
+
+
+.nav-link:hover{
+    color: rgb(90, 87, 87) !important;
+}
+
+nav .form-control{
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid black;
+}
+
+nav .navbar-nav form{
+    height: 40px;
+}
+
+nav .btn{
+    border-radius: 0px 15px 15px 0px;
+}
+
+nav .btn:hover{
+    color: white;
+}
+
+nav  .icon{
+    display: none;
+    color: rgb(71, 189, 71);
+    
+}
+
+@media screen and (max-width: 600px) {
+    nav .navbar-nav{
+        display: none;
+    }
+
+    nav .icon{
+        display: block;
+    }
+
+    .container .row .col-sm .card{
+        width: 250px;
+    }
+
+    .card .card-img-top{
+        width: auto;
+        height: 270px;
+    }
+
+    
+}
+
+@media screen and (max-width:800px) {
+    .d-flex .btn{
+        display: none;
+    }
+
+    footer .d-flex{
+        justify-content: center;
+    }
+
+    /* footer .ml-lg-2, .mx-lg-2 {
+        margin-left: 0.5rem !important;
+      } */
+
+      .bar .btn-group .dropdown{
+        display: none;
+      }
+}
+
+
+
+#btn2{
+    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;;
+    
+    width: auto;
+    height: 38px;
+}
+/* index */
+.background-video{
+    margin-top: auto;
+}
+
+.row .card{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 450px;
+}
+
+.row .card-img-top{
+    height: 280px;
+}
+
+  
+/* booking_hotel */
+.booking_hotel_background{
+    background: url("img/132704_v8.webp") no-repeat;
+   background-size: cover;
+}
+
+.booking_hotel_background h2{
+    font-size: 3.5rem;
+   color: white;
+    padding: 200px;
+    text-align: center;
+  }
+
+.form form{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}  
+
+.form #card{
+    display: block;
+   
+    margin: 0 auto;
+}
+
+/* airline booking */
+.booking_air_background{
+    background: url("img/MNA_header3.jpg") no-repeat;
+   background-size: cover;
+}
+
+.bar{
+    display: block;
+    float: right;
+}
+
+.booking_air_background h2{
+    font-size: 3.5rem;
+   color: white;
+    padding: 200px;
+    text-align: center;
+  }
+
+/* weather */
+.wbackground{
+    background: url("img/festival.jpg") no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+}
+
+.wbackground h2{
+    font-size: 30px;
+   color:white;
+    padding: 200px;
+    text-align: center;
+  }
+
+  /* blog */
+  .blog_background{
+    background: url("img/buy-in-myanmar.jpg") no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+}
+
+.blog_background h2{
+    font-size: 5.5rem;
+   color: white;
+    padding: 200px;
+    text-align: center;
+  }
+
+  .content p{
+    font-size: 14px;
+    margin: 10px 23px 10px 23px;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+
+  .content ul li{
+    font-size: 14px;
+  }
+
+  .content h2{
+    margin: 0px 0px 10px 23px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.bar .form-control{   
+    font-size: 18px;
+    border-radius: 20px 0px 0px 20px;
+    border: 1px solid black;
+}
+
+.bar .d-flex .btn{
+    border-radius: 0px 20px 20px 0px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+
+#blog .card{
+    margin-bottom: 20px;
+    height: 550px;
+}
+
+#blog .card img{
+    height: 280px;
+}
+
+  /* festival */
+  .fbackground{
+    background: url("img/festival.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.fbackground h2{
+    font-size: 30px;
+   color: white;
+    padding: 200px;
+    text-align: center;
+  }
+
+  #fcard .card{
+    margin-bottom: 20px;
+    height: 720px;
+}
+
+#fcard .card img{
+    height: 280px;
+}
+
+
+  /* things to do */
+  .todbackground{
+    background: url("img/buy-in-myanmar.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.todbackground h2{
+    font-size: 30px;
+   color: white;
+    padding: 200px;
+    text-align: center;
+  }
+
+  #ttod .card{
+    margin-bottom: 20px;
+    height: 550px;
+}
+
+#ttod .card img{
+    height: 280px;
+}
+
+
+  /* covdid */
+  .cvbackground{
+    background: url("img/covid.jpg") no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+}
+
+.cvbackground h2{
+    font-size: 30px;
+   color: white;
+    padding: 200px;
+    text-align: center;
+  }
+
+/* FAQ */
+  #faq-btn{
+    width: 80px;
+    margin-left: 50px;
+    color: white !important;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+  #faq-btn:hover{
+    color: black !important;
+    background-color: white;
+  }
+  /* visa */
+  .visabackground{
+    background: url("img/yangon.jpg") no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+}
+
+.visabackground h2{
+    font-size: 30px;
+   color: white;
+    padding: 200px;
+    text-align: center;
+  }
+
+
+/* footer */
+footer h6{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+footer{
+    background-color: rgb(36, 35, 35);
+}
+footer ul li b{
+    font-size: 18px;;
+    font-weight: bold;
+}
+
+
+
+footer.ml-xl-3{
+    margin-left: 30%;
+}
+
+footer p {
+    font-size: 14px;;
+    color: white;
+}
+
+footer .icon i{
+    font-size: 30px;
+    margin-right: 25px;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+}
+
+footer .form-control{
+    width: 300px;
+    
+    font-size: 18px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+footer .d-flex .btn{
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+
+
+footer .nav-link{
+    color: white !important;
+}
+
+footer.nav-link:hover{
+    color: rgb(90, 87, 87) !important;
+}
+
+footer .dropdown-item:hover{
+    background-color: rgb(90, 87, 87) !important;
+    color: white !important;
+}
+

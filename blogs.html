@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/a64b1fca43.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="code/bootstrap.min.css">
+    <script src="code/jquery.min.js"></script>
+    <script src="code/popper.min.js"></script>
+    <script src="code/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-light fixed-top pt-2 pl-2 pr-2 pb-2">
+    <div class="container-fluid">
+       <a class="navbar-brand h2 text-success" href="index.html">
+         <b>Travel Myanmar</b>
+       </a>
+           <ul class="navbar-nav">
+               <li class="nav-item">
+                   <a class="nav-link text-success" href="index.html">Home</a>
+               </li>
+
+               <li class="nav-item dropdown">
+                <a class="nav-link btn dropdown-toggle text-success" href="#" id="navbardrop" 
+                data-toggle="dropdown">Place to Go</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item text-success" href="Yangon.html">Yangon</a>
+                  <a class="dropdown-item text-success" href="Mandalay.html">Mandalay</a>
+                  <a class="dropdown-item text-success" href="Bagan.html">Bagan</a>
+                  <a class="dropdown-item text-success" href="Kalaw.html">Kalaw</a>
+                </div>
+              </li>
+    
+               <li class="nav-item">
+                   <a class="nav-link text-success" href="blogs.html">Blog</a>
+               </li>
+
+               <li class="nav-item">
+                   <a class="nav-link text-success" href="#">FAQ</a>
+               </li>
+               
+           <form class="d-flex">
+               <input class="form-control me-2 " type="text" placeholder="Search">
+               <button class="btn btn-outline-dark" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+             </form>
+
+           </ul>
+           <a href="#" class="icon">
+               <i class="fa fa-bars"></i>
+             </a>
+    </div>
+</nav>
+
+
+      <div class="blog_background"> 
+        <h2>Our Blog</h2>
+       </div>
+
+      <div class="bar mr-2">
+    
+          <div class="btn-group">
+            <div class="dropdown mr-4 text-right"> 
+          <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown">Categories</button>
+             <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Adventures</a></li>
+                <li><a class="dropdown-item" href="#">Wildlife</a></li>
+                <li><a class="dropdown-item" href="#">Trekking</a></li>
+                <li><a class="dropdown-item" href="#">Shopping</a></li>
+                <li><a class="dropdown-item" href="#">Historical Place</a></li>
+              </ul>
+              </div>
+
+              <div class="dropdown mr-4 text-right"> 
+          <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown">States/ Regions</button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Yangon</a></li>
+                <li><a class="dropdown-item" href="#">Mandalay</a></li>
+                <li><a class="dropdown-item" href="#">Ayeyawaddy</a></li>
+                <li><a class="dropdown-item" href="#">Magway</a></li>
+                <li><a class="dropdown-item" href="#">Sagaing</a></li>
+                <li><a class="dropdown-item" href="#">Pegu</a></li>
+                <li><a class="dropdown-item" href="#">Tanintharyi</a></li>
+                <li><a class="dropdown-item" href="#">Kachin</a></li>
+                <li><a class="dropdown-item" href="#">Karen</a></li>
+                <li><a class="dropdown-item" href="#">Shen</a></li>
+                <li><a class="dropdown-item" href="#">Mon</a></li>
+                <li><a class="dropdown-item" href="#">Chin</a></li>
+                <li><a class="dropdown-item" href="#">Kayah</a></li>
+                <li><a class="dropdown-item" href="#">Rakine</a></li>
+              </ul>
+              </div>
+
+              <div class="dropdown mr-4 text-right"> 
+          <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown">Location</button>
+              <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="#">Yangon</a></li>
+                <li><a class="dropdown-item" href="#">Mandalay</a></li>
+                <li><a class="dropdown-item" href="#">Pyin Oo Lwin</a></li>
+                <li><a class="dropdown-item" href="#">Bagan</a></li>
+                <li><a class="dropdown-item" href="#">Kalaw</a></li>
+                <li><a class="dropdown-item" href="#">Sittway</a></li>
+              </ul>
+              </div>
+
+              <form class="d-flex">
+                <input class="form-control me-2 " type="text" placeholder="Search">
+                <button class="btn btn-outline-dark" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </form>
+           </div>
+     
+      </div>
+
+    <h4 style="font-weight: bold; text-align: center; margin-top: 100px;">Our Blog </h4>
+    <div class="container-fluid" id="blog">
+  <div class="row m-2">
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/museum.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Visit Museum and Historical sites</h4></div>
+            <div class="card-text">Discover the rich ancient history of Yangon as well as the country when you visit
+               the wide-variety of museums located in Yangon. You can take the help of local guides to know the
+                scintillating stories regarding the historical sites.  </div>
+               <a href="#" class="btn btn-success mt-2">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/mdy hill.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>A Mountain Lover's Guideto Myanmar </h4></div>
+            <div class="card-text">A Mountain Lover's Guide to Myanmar By June Franco Love travelling down long winding
+               hilly roads, soaking up the hillside greenery while enjoying cool weather? Then Myanmar is just the…   </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/mingu.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>The Unfinished Story of Mingun Pahtodawgyi </h4></div>
+            <div class="card-text">By Stuart Danker After visiting the Laykyun Setkyar statue near Monywa in Myanmar,
+               I was certain that I had seen the most impressive of large structures in this country. However,… </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/inwa.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Inwa The Secret Capital of Myanmar</h4></div>
+            <div class="card-text">Inwa  formerly known as Ava), located in Mandalay Region, Myanmar,
+               is an ancient imperial capital of successive Burmese kingdoms from the 14th to 19th centuries. 
+               Throughout history, it was sacked and rebuilt numerous times.  </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/ebike.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>E-BIKE TOUR</h4></div>
+            <div class="card-text">Explore the temples in a fun way by taking a ride on e-bikes. You can take 
+              a guided tour and visit the magnificent temples and ruins. From famous to lesser known temples,
+               you will be able to truly absorb the wonders of this ancient land.   </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/sunset.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>SUNSET ON THE RIVER</h4></div>
+            <div class="card-text">End a day of temple exploration with a scenic boat ride on the Ayeyarwady river
+               and enjoy the breathtaking sunset. It will be a perfect way to relax after a busy day. 
+               The view will be etched in your mind forever, we promise!  </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/trek.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Kalaw-Inle Trek</h4></div>
+            <div class="card-text">Kalaw-Inle Trek is one of the most popular routes for hiking between the two towns
+               for tourists who love nature. The rich natural beauty surrounding these towns comprising of the mountains
+                and the lake make it a top attraction.    </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/aung-chan-tha-zedi-in.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Aung Chan Tha Pagoda</h4></div>
+            <div class="card-text">Aung Chan Tha pagoda is an ancient Buddhist temple located in the city of Kalaw 
+              in Myanmar. It is a beautiful pagoda famous for the golden and silver mosaic tiles adorning the roof,
+               which glows during the sunset and sunrise, drawing many tourists to Aung Chan Tha.  </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/myinmahti.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Kalaw-Myin Ma Hti Village</h4></div>
+            <div class="card-text">This morning trek with your local guide leads you to the spectacular Myin Ma Hti Cave,
+               home to a very special collection of gilded Buddhist statues. Other treasures contained within the cave's
+                chambers include an ancient pagoda: supposedly built more than 2,000 years ago.    </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/kuthodaw.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Walk Through Biggest Book</h4></div>
+            <div class="card-text">Kuthodaw Pagoda Mandalay Walk Through Biggest Book History and Background Kuthodaw
+               Pagoda, Mahalawka Marazein, is located at the foot of ... </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/shwedagon.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Pray at shwedagon pogoda</h4></div>
+            <div class="card-text">Yangon Pray at Shwedagon Pagoda History and Background The top one thing to
+               experience in Yangon is to take part ...</div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/balloons.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Hot Air Ballooning</h4></div>
+            <div class="card-text">Hot Air Ballooning History and Background Bagan has an unreal landscape
+               with mystical pagodas which makes it one of the ... </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/beach.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Aquatic Adventures</h4></div>
+            <div class="card-text">Aquatic Adventures DIVING SITES KAYAKING AT LAMPI LEG ROWERS RAFTING RIVER
+               CRUISE SNORKELING SNORKELING SUNSET SIGHTSEEING BOAT SKIING CANOEING DOLPHIN ... </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/inlay.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Boat with leg rowers</h4></div>
+            <div class="card-text">Boat with Leg Rowers History and Background The breathtaking beauty of Inle Lake,
+               one of the most splendid destination of Myanmar ... </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/007.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>7-day Trekking Adventure</h4></div>
+            <div class="card-text">KALAW HIGHLIGHT Explore the most famous towns of Myanmar - Yangon, Bagan
+               and Mandalay Enjoy the best of each city ...   </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/thingying.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Tradditional Festivals</h4></div>
+            <div class="card-text">Traditional Myanmar Myanmar is a wealth of different cultures.
+               If you are looking to experience the cultural side of it, ... </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/food.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Food & Drink</h4></div>
+            <div class="card-text">Food & Drink Enjoy the exotic cuisine of MyanmarMyanmar's food has a special identity.
+               Although its neighbouring countries influence the ...</div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+        
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/kyite htee yoe.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Visit Kyaik Hti Yoe</h4></div>
+            <div class="card-text">The golden rock of Kyaik Hti Yoe is an identity of Myanmar. It is a pagoda,
+               which will be an exciting addition to your trip. It is believed that the pagoda contains the Buddha's hair.
+                It is a respected monument of the country. If you want a trip with a difference  </div>
+                <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/market.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Shopping at Bogyoke Market</h4></div>
+            <div class="card-text">Shopaholic or not, Bogyoke Market has to feature in your itinerary when you visit
+               Yangon. It is one of the largest markets in the country. Get transported into colonial time since
+                the market building exhibits architecture and cobblestone streets </div>
+                <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mb-2">
+            <img class="carc-img-top" src="img/community.jpg" alt="Card Img">
+            <div class="card-body">
+            <div class="card-tittle"><h4>Community Vist in Myanmar</h4></div>
+            <div class="card-text">Community Visit In Myanmar Love to travel the offbeaten path?
+               We invite you to explore our Community Visit Tourism options ...  </div>
+               <a href="#" class="btn btn-success mt-2" style="border-radius: 20px;">Read More</a>
+            </div>
+        </div>
+        </div>
+
+      </div>
+    </div>
+    
+     
+      <!-- Footer -->
+      <footer class="text-center text-xl text-muted">
+  
+        <section class="">
+          <div class="container-fluid text-center text-xl-left pt-5 mt-5 ml-0 mr-0">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 ml-4 mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4 text-center">
+                  Menu
+                </h6>
+                <ul class="navbar-nav" class="color">
+      
+                  <li class="nav-item">
+                    <a class="nav-link btn" href="index.html"  class="text-primary"><b>Home</b></a>
+                  </li>
+        
+                  <li class="nav-item dropdown">
+                    <a class="nav-link btn dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><b>Place to Go</b></a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="Yangon.html">Yangon</a>
+                      <a class="dropdown-item" href="Mandalay.html">Mandalay</a>
+                      <a class="dropdown-item" href="Bagan.html">Bagan</a>
+                      <a class="dropdown-item" href="Kalaw.html">Kalaw</a>
+                    </div>
+                  </li>
+        
+                  <li class="nav-item">
+                    <a class="nav-link btn" href="blogs.html"><b>Blog</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link btn" href="FAQ.html"><b>FAQ</b></a>
+                  </li>
+                </ul> 
+              </div>
+              
+              <div class="col-md-4 col-lg-2 col-xl-5 ml-3 mb-4 justify-content-center">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4 text-lg-center">
+                 Newsletter
+                </h6>
+                <form class="d-flex justify-content-center">
+                  <input class="form-control me-2 " type="text" placeholder="Wrtie your email address">
+                  <button class="btn btn-outline-success" id="#btn" type="button">Submit</button>
+                </form>
+              </div>
+             
+              <div class="col-md-4 col-lg-3 col-xl-3 ml-2 mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fa-solid fa-building"></i> Office (33), Ministry of Hotels & Tourism, <br>
+                Nay Pyi Taw, Myanmar.</p>
+                <p><i class="fa-solid fa-phone"></i>+95 67 340 6458, +95 67 340 6247,</p>
+                
+                <p><i class="fa-solid fa-phone"></i>+95 67 340 6129</p>
+                <br>
+                
+                <div class="icon">
+                  <a href="" class="me-4 link-grayish">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="" class="me-4 link-grayish">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="" class="me-4 link-grayish">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="" class="me-4 link-grayish">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+         <p style="font-weight:bold;">
+          © 2022 COPYRIGHT: Kyaw Paing Oo. ALL RIGHTS RESERVED
+         </p> 
+        </div>
+        <!-- Copyright -->
+      </footer>
+<!-- Footer -->
+</body>
+</html>
