@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/a64b1fca43.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="code/bootstrap.min.css">
+    <script src="code/jquery.min.js"></script>
+    <script src="code/popper.min.js"></script>
+    <script src="code/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top mb-auto">  
+         <h2 style="color:orange; font-size: 40px; font-weight: bold;">
+            <b> Travel Myanmar</b></h2>
+        <ul class="navbar-nav" class="color">
+
+          <li class="nav-item">
+            <a class="nav-link btn" href="index.html"  class="text-warning"  style="font-size: 18px;"><b>Home</b></a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link btn dropdown-toggle" href="#" id="navbardrop" 
+            data-toggle="dropdown" style="font-size: 18px;"><b>Place to Go</b></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="Yangon.html" style="font-size: 18px;">Yangon</a>
+              <a class="dropdown-item" href="Mandalay.html" style="font-size: 18px;">Mandalay</a>
+              <a class="dropdown-item" href="Bagan.html" style="font-size: 18px;">Bagan</a>
+              <a class="dropdown-item" href="Kalaw.html" style="font-size: 18px;">Kalaw</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link btn" href="blogs.html" style="font-size: 18px;"><b>Blog</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn" href="FAQ.html" style="font-size: 18px;"><b>FAQ</b></a>
+          </li>
+
+          <li>
+            <div class="input-group">
+                <div class="form-outline">
+                  <input type="search" id="form1" class="form-control" placeholder="Search"/>
+                  
+                </div>
+                <button id="btn" type="button" class="btn btn-warning">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+          </li>        
+        </ul>  
+      </nav>
+      <div class="booking_hotel_background"> 
+        <h2>DISCOVER GREAT PLACES</h2>
+       </div>
+    
+       <div class="bar">
+        <div class="btn-group">
+          <div class="dropdown mr-4 text-right"> 
+        <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown">Hotel</button>
+           <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Chatrium Hotel</a></li>
+              <li><a class="dropdown-item" href="#">Novotel Hotel</a></li>
+              <li><a class="dropdown-item" href="#">Melia Hotel</a></li>
+              <li><a class="dropdown-item" href="#">Lotte Hotel</a></li>
+              <li><a class="dropdown-item" href="#">Sedona Hotel</a></li>
+              <li><a class="dropdown-item" href="#">Myanmar Tressure Resort Hotel</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown mr-4 text-right"> 
+        <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown">Location</button>
+            <ul class="dropdown-menu">
+               <li><a class="dropdown-item" href="#">Yangon</a></li>
+              <li><a class="dropdown-item" href="#">Mandalay</a></li>
+              <li><a class="dropdown-item" href="#">Pyin Oo Lwin</a></li>
+              <li><a class="dropdown-item" href="#">Bagan</a></li>
+              <li><a class="dropdown-item" href="#">Kalaw</a></li>
+              <li><a class="dropdown-item" href="#">Sittway</a></li>
+            </ul>
+          </div>
+
+            <div class="input-group">
+              <div class="form-outline">   
+                <div class="col pr-0">
+                  <input class="form-control" list="hotels" name="hotel" id="hotel" placeholder="Search">
+                  <datalist id="hotels">
+                    <option value="Chatrium Hotel">
+                    <option value="Novotel Hotel">
+                    <option value="Melia Hotel">
+                    <option value="Lotte Hotel">
+                    <option value="Sedona Hotel">
+                    <option value="Myanmar Tressure Resort Hotel">      
+                  </datalist>
+                </div>
+              </div>
+              <button id="btn2" type="button" class="btn btn-warning">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+         </div>
+    </div>
+  
+
+      <h4 style="font-weight: bold; text-align: center; margin-top: 100px;">Popular Hotels </h4>
+      <div class="row ml-2 mt-4 mr-2">
+        <div class="col-sm col-md col-lg col-xl mb-2">
+          <div class="card mb-3" style="width: 400px; height: 350px; margin: 0 auto;">
+            <img class="carc-img" src="img/chatrium.jpg" height="350px" style="border-radius: 20px;" alt="Card Img">
+            <div class="card-img-overlay">
+            <div class="card-text" style="text-align: center; margin: 230px 0px; padding: 30px 0px;
+             font: 20px bold; background-color: rgba(0, 0, 0, 0.62);">
+               <a href="hotelbooking.html" style="text-decoration: none; color:white;"><h4>Chatrium Hotel</h4> </a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm col-md col-lg col-xl mb-2">
+          <div class="card mb-3" style="width: 400px; height: 350px; margin: 0 auto;">
+            <img class="carc-img" src="img/novotel.jpg" height="350px"  style="border-radius: 20px;" alt="Card Img">
+            <div class="card-img-overlay">
+            <div class="card-text" style="text-align: center; margin:  230px 0px; padding: 30px 0px;
+             font: 20px bold; background-color: rgba(0, 0, 0, 0.62);">
+               <a href="hotelbooking.html" style="text-decoration: none; color:white;"><h4>Novotel Hotel</h4> </a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm col-md col-lg col-xl mb-2">
+          <div class="card mb-3" style="width: 400px; height: 350px; margin: 0 auto;">
+            <img class="carc-img" src="img/melia.jpg" height="350px"  style="border-radius: 20px;" alt="Card Img">
+            <div class="card-img-overlay">
+            <div class="card-text" style="text-align: center; margin:  230px 0px; padding: 30px 0px;
+             font: 20px bold; background-color: rgba(0, 0, 0, 0.62);">
+               <a href="hotelbooking.html" style="text-decoration: none; color:white;"><h4>Melia Hotel</h4> </a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm col-md col-lg col-xl mb-2">
+          <div class="card mb-3" style="width: 400px; height: 350px; margin: 0 auto;">
+            <img class="carc-img" src="img/lotte.jpg" height="350px"  style="border-radius: 20px;" alt="Card Img">
+            <div class="card-img-overlay">
+            <div class="card-text" style="text-align: center; margin:  230px 0px; padding: 30px 0px;
+             font: 20px bold; background-color: rgba(0, 0, 0, 0.62);">
+               <a href="hotelbooking.html" style="text-decoration: none; color:white;"><h4>Lotte Hotel</h4> </a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm col-md col-lg col-xl mb-2">
+          <div class="card mb-3" style="width: 400px; height: 350px; margin: 0 auto;">
+            <img class="carc-img" src="img/sedona.jpg" height="350px"  style="border-radius: 20px;" alt="Card Img">
+            <div class="card-img-overlay">
+            <div class="card-text" style="text-align: center; margin:  230px 0px; padding: 30px 0px;
+             font: 20px bold; background-color: rgba(0, 0, 0, 0.62);">
+               <a href="hotelbooking.html" style="text-decoration: none; color:white;"><h4>Sedona Hotel</h4> </a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm col-md col-lg col-xl mb-2">
+          <div class="card mb-3" style="width: 400px; height: 350px; margin: 0 auto;">
+            <img class="carc-img" src="img/myanmar treasure.jpg" height="350px"  style="border-radius: 20px;" alt="Card Img">
+            <div class="card-img-overlay">
+            <div class="card-text" style="text-align: center; margin:  230px 0px; padding: 30px 0px;
+             font: 20px bold; background-color: rgba(0, 0, 0, 0.62);">
+               <a href="hotelbooking.html" style="text-decoration: none; color:white;"><h4>Myanmar Tressure Resort Hotel</h4> </a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h4 style="font-weight: bold; text-align: center; margin-top: 100px;">Popular Locations </h4>
+      <div class="row ml-2 mt-4 mr-2">
+        <div class="col-sm col-md col-lg col-xl mb-2">
+          <div class="card mb-3" style="width: 400px; height: 350px; margin: 0 auto;">
+            <img class="carc-img" src="img/yangon.jpg" height="350px" style="border-radius: 20px;" alt="Card Img">
+            <div class="card-img-overlay">
+            <div class="card-text" style="text-align: center; margin: 230px 0px; padding: 30px 0px;
+             font: 20px bold; background-color: rgba(0, 0, 0, 0.62);">
+               <a href="#" style="text-decoration: none; color:white;"><h4>Yangon</h4> </a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm col-md col-lg col-xl mb-2">
+          <div class="card mb-3" style="width: 400px; height: 350px; margin: 0 auto;">
+            <img class="carc-img" src="img/mdy.jpg" height="350px"  style="border-radius: 20px;" alt="Card Img">
+            <div class="card-img-overlay">
+            <div class="card-text" style="text-align: center; margin:  230px 0px; padding: 30px 0px;
+             font: 20px bold; background-color: rgba(0, 0, 0, 0.62);">
+               <a href="#" style="text-decoration: none; color:white;"><h4>Mandalay</h4> </a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm col-md col-lg col-xl mb-2">
+          <div class="card mb-3" style="width: 400px; height: 350px; margin: 0 auto;">
+            <img class="carc-img" src="img/npt.jpg" height="350px"  style="border-radius: 20px;" alt="Card Img">
+            <div class="card-img-overlay">
+            <div class="card-text" style="text-align: center; margin:  230px 0px; padding: 30px 0px;
+             font: 20px bold; background-color: rgba(0, 0, 0, 0.62);">
+               <a href="#" style="text-decoration: none; color:white;"><h4>Nay Pyi Taw</h4> </a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm col-md col-lg col-xl mb-2">
+          <div class="card mb-3" style="width: 400px; height: 350px; margin: 0 auto;">
+            <img class="carc-img" src="img/sittwe.jpg" height="350px"  style="border-radius: 20px;" alt="Card Img">
+            <div class="card-img-overlay">
+            <div class="card-text" style="text-align: center; margin:  230px 0px; padding: 30px 0px;
+             font: 20px bold; background-color: rgba(0, 0, 0, 0.62);">
+               <a href="#" style="text-decoration: none; color:white;"><h4>Sittway</h4> </a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm col-md col-lg col-xl mb-2">
+          <div class="card mb-3" style="width: 400px; height: 350px; margin: 0 auto;">
+            <img class="carc-img" src="img/pol.jpg" height="350px"  style="border-radius: 20px;" alt="Card Img">
+            <div class="card-img-overlay">
+            <div class="card-text" style="text-align: center; margin:  230px 0px; padding: 30px 0px;
+             font: 20px bold; background-color: rgba(0, 0, 0, 0.62);">
+               <a href="#" style="text-decoration: none; color:white;"><h4>Pyin Oo Lwin</h4> </a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm col-md col-lg col-xl mb-2">
+          <div class="card mb-3" style="width: 400px; height: 350px; margin: 0 auto;">
+            <img class="carc-img" src="img/kalaw1.jpg" height="350px"  style="border-radius: 20px;" alt="Card Img">
+            <div class="card-img-overlay">
+            <div class="card-text" style="text-align: center; margin:  230px 0px; padding: 30px 0px;
+             font: 20px bold; background-color: rgba(0, 0, 0, 0.62);">
+               <a href="#" style="text-decoration: none; color:white;"><h4>Kalaw</h4> </a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h4 style="font-weight: bold; text-align: center; margin-top: 100px;">Featured Categories</h4>
+      
+        <div class="card" style="width: 450px; height: 350px; margin: 0 auto;">
+          <img class="carc-img" src="img/mna.jpg" alt="Card Img">
+          <div class="card-img-overlay">
+          <div class="card-text" style="text-align: center; margin: 120px 0px; padding: 30px 0px;
+           font: 20px bold; background-color: rgba(0, 0, 0, 0.62);">
+          <a href="airline.html" style=" color: white; text-decoration: none;">  <h4>Find Airlines for Myanmar</h4></div></a>
+          </div>
+        </div>
+      
+      
+      
+      <!-- Footer -->
+<footer class="text-center text-xl text-muted">
+  
+  <section class="">
+    <div class="container-fluid text-center text-xl-left pt-5 mt-5 ml-0 mr-0">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 ml-lg-4 mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4 text-center">
+            Menu
+          </h6>
+          <ul class="navbar-nav" class="color">
+
+            <li class="nav-item">
+              <a class="nav-link btn" href="index.html"  class="text-primary"><b>Home</b></a>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link btn dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><b>Place to Go</b></a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Yangon.html">Yangon</a>
+                <a class="dropdown-item" href="Mandalay.html">Mandalay</a>
+                <a class="dropdown-item" href="Bagan.html">Bagan</a>
+                <a class="dropdown-item" href="Kalaw.html">Kalaw</a>
+              </div>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link btn" href="blogs.html"><b>Blog</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn" href="FAQ.html"><b>FAQ</b></a>
+            </li>
+          </ul> 
+        </div>
+        
+        <div class="col-md-4 col-lg-2 col-xl-5 ml-xl-3 mb-4 justify-content-center">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 text-lg-center">
+           Newsletter
+          </h6>
+          <div class="input-group m-1 justify-content-center">
+            <div class="form-outline">
+              <input type="search" id="form1" class="form-control" placeholder="write your email"/>
+              
+            </div>
+            <input id="sbtn" type="submit" class="btn" value="Submit">
+          </div>
+        </div>
+       
+        <div class="col-md-4 col-lg-3 col-xl-3 ml-lg-2 mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fa-solid fa-building"></i> Office (33), Ministry of Hotels & Tourism, <br>
+          Nay Pyi Taw, Myanmar.</p>
+          <p><i class="fa-solid fa-phone"></i>+95 67 340 6458, +95 67 340 6247,</p>
+          
+          <p><i class="fa-solid fa-phone"></i>+95 67 340 6129</p>
+          <br>
+          
+          <div class="icon">
+            <a href="" class="me-4 link-grayish">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 link-grayish">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 link-grayish">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 link-grayish">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+   <p style="font-weight:bold;">
+    © 2022 COPYRIGHT: Kyaw Paing Oo. ALL RIGHTS RESERVED
+   </p> 
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>
